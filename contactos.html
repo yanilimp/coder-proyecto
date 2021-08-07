@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="../yammysburger-limprich/logos/logo-2@4x-8.png">
+        <title>Contactos</title>
+      
+    </head>
+    
+    <body>
+        <header>
+            
+            <div class="contenedor-superior">
+                <div class="logo-contenedor">
+                    <img class="logotipo-header" src="../yammysburger-limprich/logos/logo-4@4x-8.png" alt="logo">
+                </div>
+                <nav class="contenedor-menu-principal">
+                   <ul class="lista-menu-principal">
+                       <li><a href="index.html">Inicio</a></li>
+                       <li><a href="menu.html">Menú</a></li>
+                       <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+                       <li><a href="carrito.html">Carrito</a></li>
+                       <li><a href="contactos.html">Contactos</a></li>
+                       <li class="icono-carrito"><a href="carrito.html"><img src="../yammysburger-limprich/imagenes/carrito_1@4x-8.png" alt="Carrito"></a></li>
+                       <li class="icono-busqueda"><a href=""><img src="../yammysburger-limprich/imagenes/search@4x-8.png" alt="Búsqueda"></a></li>
+                   </ul>
+                </nav>
+            </div>
+            <div class="contenedor-titulo-principal">
+                <h1>Contactos</h1>
+                <p class="subtitulo-central">Hamburguesas caseras</p>
+            </div>
+        </header>
+        <section class="contenedor-seccion-4">
+            <div class="contenedor-contacto-inicio">
+                <div>
+                    <h2>Contactos</h2>
+                </div>
+                <div class="contenedor-form-y-mapa-seccion-4">
+                    <div class="contenedor-formulario">
+                        <form action="contactos.php" method="POST">
+                            <fieldset>
+                                <legend>Contactános</legend>
+                                <label for="nombre">Nombre:</label>
+                                <input type="text" name="nombre" />
+                                <br>
+                                <label for="email">E-mail:</label>
+                                <input type="mail" name="email" />
+                                <br>
+                                <label for="telefono">Teléfono:</label>
+                                <input type="tel" name="telefono">
+                                <br>
+                                <label for="Genero">Género</label>
+                                <select name="Genero">
+                                    <option value="F">Femenino</option>
+                                    <option value="M">Masculino</option>
+                                    <option value="O">Otro</option>
+                                </select>
+                                <br>
+                                <input type="checkbox" name="enviar-mail">
+                                <label for="enviar-mail"> Recibir ofertas-newsletter por mail</label>
+                                <br>
+                                <textarea rows="4" cols="15"
+                                    name="comentarios">Comentarios que quieras dejarnos...</textarea>
+                                ​
+                                <br>
+
+                                <input type="submit" value="Enviar">
+                                <input type="reset" value="Limpiar formulario" />
+                            </fieldset>
+                        </form>
+                    </div>
+
+                    <div class="contenedor-direccion-mapa-inicio">
+                        <div>
+                            <h3>Dirección</h3>
+                        </div>
+                        <div class="contenedor-mapa-inicio">
+                            <!--mapa-->
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.943899850188!2d-58.383956148786346!3d-34.605580080363076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacfdd1fa037%3A0xf1b1f26b0eab3053!2sAv.%209%20de%20Julio%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1624829524700!5m2!1ses!2sar"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                                Dirección</iframe>
+                        </div>
+                        <div class="contenedor-direccion-texto-inicio">
+                            <p>Avda. Siempreviva 1234 - Buenos Aires - Argentina</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="logo-footer">
+                <img src="../yammysburger-limprich/logos/logo-4@4x-8.png" alt="logo">
+            </div>
+    
+            <div class="contenedor-footer">
+               
+                <div class="contenedor-datos-footer">
+                    <p>Dirección: Calle 2 1122 - Ciudad - País</p>
+                    <p>Teléfonos: 111222333 / 111222333</p>
+                    <p>email: hamb@hamb.com</p>
+                </div>
+                <div class="contenedor-redes-footer">
+                    <ul>
+                        <li>Whatsapp</li>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                    </ul>
+                </div>
+                <div class="contenedor-horarios-footer">
+                    <table class="horarios">
+                        <tr>
+                            <th>Dias</th>
+                            <th>Horas</th>
+                        </tr>
+                        <tr>
+                            <td>Lunes a Viernes</td>
+                            <td>14:00hs a 00:00hs</td>
+                        </tr>
+                        <tr>
+                            <td>Sábados y Domingos</td>
+                            <td>15:00hs a 02:00hs</td>
+                        </tr>
+                    </table>
+                   <!-- <p>Lunes a Viernes</p>
+                    <p>14:00hs a 00:00hs</p>
+                    <p>Sábados y Domingos</p>
+                    <p>15:00hs a 03:00hs</p>-->
+                </div>
+                <div class="contenedor-menu-footer">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="menu.html">Menú</a></li>
+                        <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+                        <li><a href="carrito.html">Carrito</a></li>
+                        <li><a href="contactos.html">Contactos</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="contenedor-copyright">
+                <p>Copyright © 2021 </p>
+            </div>
+        </footer>
+</body>
+</html>

@@ -1,0 +1,7 @@
+/* Traer fuentes https://fonts.google.com/ */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/* Links a otros estilos de las secciones de la pagina */
+@import url(../pages/menu.css);
+@import url(../pages/banner.css);
+@import url(../pages/blog.css);
+@import url(../pages/Informacion.css);
