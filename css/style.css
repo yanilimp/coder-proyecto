@@ -49,7 +49,7 @@ header{
     
 }
 .contenedor-menu-principal ul li a {
-    display: block;
+    display: inline-flex;
     padding: 20px;
     text-decoration: none;
     color: #D8BA27;
@@ -82,22 +82,22 @@ header{
 
 /*INICIO TITULO PRINCIPAL*/
 .contenedor-titulo-principal {
-    display: block;
-    height: 750px;
+    height: auto;
     width: 100%;
-    margin-top: 65px;
-    overflow: hidden;
-    background-image: url(../imagenes/banner-inicio.jpg);
+    display: block;
+   /* background: url(../imagenes/banner-inicio-negro.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(0,0,0,0.8)
+    */
 }
-
+.contenedor-titulo-principal img{
+    width: 100%;
+}
 h1 {
     font-family: 'Bowlby One SC', cursive;
     color: #D8BA27;
     text-align: center;
-    font-size: 90px;
+    font-size: 5em;
     display: block;
     position: absolute;
     top: 50%;
@@ -115,10 +115,8 @@ h1 {
       opacity: 1;
     }
  }
- 
-
 .subtitulo-central {
-    font-size: 30px;
+    font-size: 2em;
     text-align: center;
     color: #D8BA27;
     font-weight: bold; 
@@ -144,17 +142,14 @@ p {
 
 /*INICIO SECCION 1*/
 .contenedor-seccion-1 {
-  /*background-image: url(../imagenes/pexels-erik-mclean-5662826.jpg);
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: 750px;*/
-    background-color: rgba(0,0,0,0.8); ;
+    background-color: rgba(0,0,0,0.8); 
     display: flex;
     justify-content: space-around;
 
 }
-.contenedor-seccion-1 .contenedor-imagen-resto-seccion-1 img {
+.contenedor-imagen-resto-seccion-1 img {
     width: 750px;
+    height: auto;
     overflow: hidden;
     opacity: 30%;
     margin: 0 0;
@@ -184,10 +179,9 @@ p {
     
 }
 .contenedor-texto-logo-seccion-1 h2{
-    font-size: 30px;
+    font-size: 2em;
     font-weight: 800;
     text-align: center;
-    /*padding-right: 100px;*/
     padding-top: 20px;
     padding-bottom: 20px;
     color: #D8BA27;
@@ -517,8 +511,8 @@ a {
 footer{
     margin:10px;
     padding: 20px;
-    background-image: linear-gradient(to top, #D8BA27, #000);
-    
+/*    background-image: linear-gradient(to top, #D8BA27, #000);
+  */  
 }
 
 .logo-footer img{
