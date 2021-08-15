@@ -340,8 +340,8 @@ p {
     color: #D8BA27;
 }
 .contenedor-menu-pagina-inicio img{
-    width: 350px;
-    height: 350px;
+    width: 100%;
+    height: auto;
 }
 .contenedor-boton-ver-mas-seccion-3{ 
     display: flex;
