@@ -1,7 +1,17 @@
-@media screen and (min-width: 768px) and (max-width: 1440px) {
+@media screen and (min-width: 800px) and (max-width: 1440px) {
     .contenedor-superior {
         display: flex;
 
     }
-    
+    .contenedor-menu-pagina-inicio{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 4% 4%;
+        justify-content: center;
+        padding-top: 4%;
+        padding-bottom: 4%;
+        text-align: center;
+        align-content: center;
+    }
 }

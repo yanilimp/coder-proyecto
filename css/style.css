@@ -11,12 +11,9 @@ header{
     height: 100%;
 }
 .contenedor-superior{
-    overflow: hidden;
     display: flex;
-    flex-wrap: nowrap;
     position: fixed;
     z-index: 2;
-    top: 0;
     padding-top: 5px;
     margin-top: 0;
     background: rgba(0,0,0,0.9);
@@ -320,8 +317,8 @@ p {
 }
 .contenedor-menu-pagina-inicio{
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% ;
-    grid-template-rows: 20% 20% 20% 20%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     gap: 4% 4%;
     justify-content: center;
     padding-top: 4%;
