@@ -1,4 +1,4 @@
-@media screen and (min-width: 300px) and (max-width: 800px) {
+@media screen and (min-width: 50px) and (max-width: 800px) {
    .contenedor-superior{
        display: flex;
    }
@@ -24,8 +24,8 @@
     .contenedor-titulo-principal img{
         width: 100%;
     }
-    .contenedor-seccion-1{
-        display: block;
+    .contenedor-imagen-resto-seccion-1{
+        display: none;
     }
     .contenedor-menu-pagina-inicio{
         display: grid;
