@@ -406,6 +406,8 @@ button:hover{
 .contenedor-form-y-mapa-seccion-4{
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
+    align-content: center;
 }
 .contenedor-formulario {
     display: inline-block;
