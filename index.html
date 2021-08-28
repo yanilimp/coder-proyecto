@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/mobile.css">
     <link rel="stylesheet" href="./css/tablet.css">
@@ -22,8 +23,38 @@
 
 <body>
     <header>
-
-        <div class="contenedor-superior">
+        <nav class="navbar navbar-expand-lg fixed-top d-flex contenedor-superior">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="index.html">
+                    <img class="logotipo-header" src="./logos/logo-6@4x-8.png" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="bi bi-list"></i></span>
+                </button>
+                <div class="collapse navbar-collapse contenedor-menu-principal" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll justify-content-end"
+                        style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="menu.html">Menú</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobrenosotros.html">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="carrito.html">Carrito</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactos.html">Contactos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--<div class="contenedor-superior">
             <div class="logo-contenedor">
                 <img class="logotipo-header" src="./logos/logo-4@4x-8.png" alt="logo">
             </div>
@@ -39,66 +70,218 @@
                     <li class="icono-busqueda"><a href=""><img src="./imagenes/search@4x-8.png" alt="Búsqueda"></a></li>
                 </ul>
             </nav>
-        </div>
+        </div>-->
     </header>
 
     <div class="cuerpo">
+        <div id="intro-example" class="p-5 text-center bg-image">
+            <div class="mask"></div>
+            <div class="d-flex justify-content-center align-items-center h-100">
+                <div class="text-white">
+                    <h1 class="mb-3">Yammy's Burger</h1>
+                </div>
+            </div>
+        </div>
 
-        <main class="contenedor-titulo-principal">
-            <h1>Yammy's Burger</h1>
-            <p class="subtitulo-central">Hamburguesas caseras</p>
-            <img src="./imagenes/banner-inicio-negro.png" alt="Banner">
-        </main>
+        <!--  <main class="contenedor-titulo-principal">
+        <h1></h1>
+        <img src="./imagenes/banner-inicio-negro.png" class="img-fluid" alt="Responsive image">>
+    </main>-->
+        <div class="container my-5 z-depth-1">
+            <section class="dark-grey-text">
 
-        <section class="contenedor-seccion-1">
-            <div class="contenedor-imagen-resto-seccion-1">
-                <img src="./imagenes/pexels-erik-mclean-5662826.jpg" alt="Restaurant-Yammy
+                <div class="row pr-lg-5">
+                    <div class="col-md-7 mb-4">
+                        <div class="mask"></div>
+
+                        <div class="view">
+                            <img src="./imagenes/pexels-erik-mclean-5662826.jpg" class="img-fluid" alt="Restaurant-Yammy
                 's-Burger">
-            </div>
+                        </div>
 
-            <div class="contenedor-texto-logo-seccion-1">
-                <img src="./logos/logo-4@4x-8.png" alt="logo">
-                <h2>Sobre Nosotros</h2>
-                <p>Lorem ipsum dolor sit amet <em>consectetur</em> adipisicing elit. Error ad earum, saepe dolorum
-                    corporis nam ea <strong> quia ratione quas quae velit eligendi</strong>, quisquam magni odit neque
-                    adipisci, beatae sit labore!</p>
-                <div class="contenedor-boton-seccion-1">
-                    <button><a href="sobrenosotros.html">Leer más</a></button>
+                    </div>
+
+                    <div class="col-md-5 d-flex align-items-center">
+                        <div class="contenedor-texto-logo-seccion-1">
+
+                            <h2 class="font-weight-bold mb-4">Sobre Nosotros</h2>
+
+                            <p>Lorem ipsum dolor sit amet <em>consectetur</em> adipisicing elit. Error ad earum, saepe
+                                dolorum
+                                corporis nam ea <strong> quia ratione quas quae velit eligendi</strong>, quisquam magni
+                                odit neque
+                                adipisci, beatae sit labore!</p>
+
+                            <button type="button" class="btn btn-orange btn-rounded mx-0 contenedor-boton-seccion-1"><a
+                                    href="./sobrenosotros.html">Leer más</a></button>
+
+                            <div class="redes-sociales-seccion-1">
+                                <ul>
+                                    <li><a href="#"><img src="./imagenes/whatsapp.png" alt="Whatsapp"></a>
+                                    </li>
+                                    <li><a href="#"><img src="./imagenes/facebook.png" alt="Facebook"></a>
+                                    </li>
+                                    <li><a href="#"><img src="./imagenes/instagram.png" alt="Instagram"></a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
-                <div class="redes-sociales-seccion-1">
-                    <ul>
-                        <li><a href="#"><img src="./imagenes/whatsapp.png" alt="Whatsapp"></a>
-                        </li>
-                        <li><a href="#"><img src="./imagenes/facebook.png" alt="Facebook"></a>
-                        </li>
-                        <li><a href="#"><img src="./imagenes/instagram.png" alt="Instagram"></a>
-                        </li>
-                    </ul>
-                </div>
+
+            </section>
+            <!--Section: Content-->
+
+
+        </div>
+        <!--    <section class="contenedor-seccion-1">
+        <div class="contenedor-imagen-resto-seccion-1">
+            <img src="./imagenes/pexels-erik-mclean-5662826.jpg" alt="Restaurant-Yammy
+                's-Burger">
+        </div>
+
+        <div class="contenedor-texto-logo-seccion-1">
+            <img src="./logos/logo-4@4x-8.png" alt="logo">
+            <h2>Sobre Nosotros</h2>
+            <p>Lorem ipsum dolor sit amet <em>consectetur</em> adipisicing elit. Error ad earum, saepe dolorum
+                corporis nam ea <strong> quia ratione quas quae velit eligendi</strong>, quisquam magni odit neque
+                adipisci, beatae sit labore!</p>
+            <div class="contenedor-boton-seccion-1">
+                <button><a href="sobrenosotros.html">Leer más</a></button>
             </div>
+            <div class="redes-sociales-seccion-1">
+                <ul>
+                    <li><a href="#"><img src="./imagenes/whatsapp.png" alt="Whatsapp"></a>
+                    </li>
+                    <li><a href="#"><img src="./imagenes/facebook.png" alt="Facebook"></a>
+                    </li>
+                    <li><a href="#"><img src="./imagenes/instagram.png" alt="Instagram"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
 
 
 
+    </section>-->
+
+        <div class="container my-5 py-5 z-depth-1 contenedor-seccion-2">
+            <section class="px-md-5 mx-md-5 text-center text-lg-left dark-grey-text">
+                <div class="row">
+                    <div class="col-md-6 mb-4 mb-md-0 contenedor-texto-boton-seccion-2">
+
+                        <h3 class="font-weight-bold">Hamburguesa Especial</h3>
+
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia
+                            incidunt accusantium tenetur nam
+                            totam excepturi modi sed, repudiandae rerum dolorem optio, suscipit atque eius nihil
+                            voluptas culpa.
+                            Autem, minus libero</p>
+
+                        <button type="button" class="btn btn-orange btn-rounded mx-0 contenedor-boton-ver-mas-seccion-2">
+                            <a class="btn btn-purple btn-md ml-0" href="menu.html" role="button">Ver más</a>
+                        </button>
+
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6 mb-4 mb-md-0">
+
+                        <!--Image-->
+                        <div class="view overlay z-depth-1-half">
+                            <img src="./imagenes/burger-bacon-1.png" class="img-fluid" alt="">                           
+                        </div>
+
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+
+            </section>
+            <!--Section: Content-->
+
+
+        </div>
+        <!--
+    <section class="contenedor-seccion-2">
+
+        <div class="contenedor-texto-boton-seccion-2">
+            <h2>Hamburguesa Especial</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia incidunt accusantium tenetur nam
+                totam excepturi modi sed, repudiandae rerum dolorem optio, suscipit atque eius nihil voluptas culpa.
+                Autem, minus libero.</p>
+
+            <div class="contenedor-boton-ver-mas-seccion-2">
+                <button><a href="menu.html">Ver más</a></button>
+            </div>
+        </div>
+        <div class="contenedor-imagen-seccion-2">
+            <img src="./imagenes/burger-bacon-1.png" alt="Imagen-hamburguesa">
+        </div>
+
+    </section>
+    -->
+
+    <div class="container my-5 p-5 z-depth-1 contenedor-seccion-3">  
+        <!--Section: Content-->
+        <section class="text-center dark-grey-text contenedor-h2-seccion-3">          
+          <h2 class="font-weight-bold text-center grey-text text-uppercase small mb-4">Carta - Menú</h2>
+          <!-- Section heading -->
+          <h3 class="font-weight-bold text-center dark-grey-text pb-2">Hamburguesas Especiales</h3>
+          <hr class="w-header my-4">                
+          <!-- Grid row -->
+          <div class="row">      
+            <!-- Grid column -->
+            <div class="col-md-3 mb-4">      
+              <div class="view z-depth-1 mb-4">
+                <img src="./imagenes/pexels-valeria-boltneva-1639557@2x.png" class="img-fluid mx-auto" alt="smaple image">
+              </div>
+              <h6 class="font-weight-bold">Hamburguesa 1</h6>
+              <small class="texto-info">Iusto a quod dolor impedit adipisci.</small>
+              <button type="button" class="btn btn-orange btn-rounded mx-0 "><a class="btn btn-indigo btn-sm btn-rounded">Agregar al carrito</a></button>      
+            </div>
+            <!-- Grid column -->      
+            <!-- Grid column -->
+            <div class="col-md-3 mb-4">      
+              <div class="view z-depth-1 mb-4">
+                <img src="./imagenes/pexels-daniel-reche-3616956@2x.png" class="img-fluid mx-auto" alt="smaple image">
+              </div>
+              <h6 class="font-weight-bold">Hamburguesa 2</h6>
+              <small class="texto-info">Iusto a quod dolor impedit adipisci.</small>
+              <button type="button" class="btn btn-orange btn-rounded mx-0"><a class="btn btn-indigo btn-sm btn-rounded">Agregar al carrito</a></button>      
+            </div>
+            <!-- Grid column -->            
+            <!-- Grid column -->
+            <div class="col-md-3 mb-4">      
+              <div class="view z-depth-1 mb-4">
+                <img src="./imagenes/pexels-tioroshi-lazaro-2874989@2x.png" class="img-fluid mx-auto" alt="smaple image">
+              </div>
+              <h6 class="font-weight-bold">Hamburguesa 3</h6>
+              <small class="texto-info">Iusto a quod dolor impedit adipisci.</small>
+              <button type="button" class="btn btn-orange btn-rounded mx-0"><a class="btn btn-indigo btn-sm btn-rounded">Agregar al carrito</a></button>      
+            </div>
+            <!-- Grid column -->            
+            <!-- Grid column -->
+            <div class="col-md-3 mb-4">      
+              <div class="view z-depth-1 mb-4">
+                <img src="./imagenes/pexels-dana-tentis-552056@2x.png" class="img-fluid mx-auto" alt="smaple image">
+              </div>
+              <h6 class="font-weight-bold">Hamburguesa 4</h6>
+              <small class="texto-info">Iusto a quod dolor impedit adipisci.</small>
+              <button type="button" class="btn btn-orange btn-rounded mx-0"><a class="btn btn-indigo btn-sm btn-rounded">Agregar al carrito</a></button>      
+            </div>
+            <!-- Grid column -->      
+          </div>
+          <!-- Grid row -->          
         </section>
-        <section class="contenedor-seccion-2">
+        <!--Section: Content-->      
+      </div>
 
-            <div class="contenedor-texto-boton-seccion-2">
-                <h2>Hamburguesa Especial</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia incidunt accusantium tenetur nam
-                    totam excepturi modi sed, repudiandae rerum dolorem optio, suscipit atque eius nihil voluptas culpa.
-                    Autem, minus libero.</p>
-
-                <div class="contenedor-boton-ver-mas-seccion-2">
-                    <button><a href="menu.html">Ver más</a></button>
-                </div>
-            </div>
-            <div class="contenedor-imagen-seccion-2">
-                <img src="./imagenes/burger-bacon-1.png" alt="Imagen-hamburguesa">
-            </div>
-
-        </section>
-
-        <section class="contenedor-seccion-3">
+    <!--   <section class="contenedor-seccion-3">
             <div class="contenedor-h2-seccion-3">
                 <h2>Carta - Menú</h2>
             </div>
@@ -135,7 +318,64 @@
             <div class="contenedor-boton-ver-mas-seccion-3">
                 <button><a href="menu.html">Ver más</a></button>
             </div>
-        </section>
+        </section>--> 
+        <div class="container my-5 py-5 z-depth-1">
+            <!--Section: Content-->
+            <section class="px-md-5 mx-md-5 text-center text-lg-left dark-grey-text">                   
+              <!--Grid row-->
+              <div class="row d-flex justify-content-center">          
+                <!--Grid column-->
+                <div class="col-md-6 text-center">          
+                  <h2 class="font-weight-bold">CONTACTOS</h2>          
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id quam sapiente
+                    molestiae.</p>          
+                </div>
+                <!--Grid column-->          
+              </div>
+              <!--Grid row-->          
+              <!--Grid row-->
+              <div class="row">          
+                <!--Grid column-->
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">          
+                  <!-- Material outline input -->
+                  <div class="md-form md-outline mt-3">
+                    <label for="form-email">E-mail</label>
+                    <input type="email" id="form-email" class="form-control">
+                   
+                  </div>          
+                  <!-- Material outline input -->
+                  <div class="md-form md-outline">
+                    <label for="form-subject">Asunto</label>
+                    <input type="text" id="form-subject" class="form-control">
+                   
+                  </div>          
+                  <!--Material textarea-->
+                  <div class="md-form md-outline mb-3">
+                    <label for="form-message">¿Cómo podemos ayudarte?</label>
+                    <textarea id="form-message" class="md-textarea form-control" rows="3"></textarea>
+                 
+                  </div>          
+                  <button type="submit" class="btn btn-info btn-sm ml-0">Enviar</button>          
+                </div>
+                <!--Grid column-->          
+                <!--Grid column-->
+                <div class="col-lg-6 col-md-12 mb-0 mb-md-0">          
+                    <!--Google map-->
+                    <div id="map-container-google-1" class="z-depth-1 map-container mb-4">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.943899850188!2d-58.383956148786346!3d-34.605580080363076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacfdd1fa037%3A0xf1b1f26b0eab3053!2sAv.%209%20de%20Julio%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1624829524700!5m2!1ses!2sar" frameborder="0"
+                        style="border:0" allowfullscreen></iframe>
+                    </div>
+                    <!--Google Maps-->          
+                    <p class="font-weight-bold">Avda. Siempreviva 1234 - Buenos Aires - Argentina</p>          
+                  </div>
+                  <!--Grid column-->          
+              </div>
+              <!--Grid row-->         
+            </section>
+            <!--Section: Content-->         
+          </div>
+          
+        <!--
         <section class="contenedor-seccion-4">
             <div class="contenedor-contacto-inicio">
                 <div>
@@ -181,7 +421,7 @@
                             <h3>Dirección</h3>
                         </div>
                         <div class="contenedor-mapa-inicio">
-                            <!--mapa-->
+                           
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.943899850188!2d-58.383956148786346!3d-34.605580080363076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacfdd1fa037%3A0xf1b1f26b0eab3053!2sAv.%209%20de%20Julio%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1624829524700!5m2!1ses!2sar"
                                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
@@ -194,7 +434,64 @@
                 </div>
             </div>
         </section>
+    -->
     </div>
+
+    <footer class="page-footer font-small">
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left">      
+          <!-- Grid row -->
+          <div class="row">      
+            <!-- Grid column -->
+            <div class="col-md-3 mx-auto">      
+              <!-- Links -->                
+              <ul class="list-unstyled">               
+                <li>Dirección: Calle 2 1122 - Ciudad - País</li>
+                <li>Teléfonos: 111222333 / 111222333</li>
+                <li>Email: hamb@hamb.com</li>               
+              </ul>      
+            </div>
+            <!-- Grid column -->      
+            <hr class="clearfix w-100 d-md-none">      
+            <!-- Grid column -->
+            <div class="col-md-3 mx-auto">      
+              <!-- Links -->
+              <ul class="list-unstyled">
+                <li>Whatsapp</li>
+                <li>Facebook</li>
+                <li>Instagram</li>
+              </ul>
+      
+            </div>
+               
+            
+            <!-- Grid column -->      
+            <hr class="clearfix w-100 d-md-none">      
+            <!-- Grid column -->
+            <div class="col-md-3 mx-auto">      
+              <!-- Links -->                  
+              <ul class="list-unstyled">
+                <li><a href="index.html">Inicio</a></li>
+                    <li><a href="menu.html">Menú</a></li>
+                    <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+                    <li><a href="carrito.html">Carrito</a></li>
+                    <li><a href="contactos.html">Contactos</a></li>
+              </ul>      
+            </div>
+            <!-- Grid column -->      
+          </div>
+          <!-- Grid row -->      
+        </div>
+        <!-- Footer Links -->      
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">         
+             <a href="#"> © 2021 Copyright: Lizbeth Limprich</a>
+        </div>
+        <!-- Copyright -->
+      
+      </footer>
+      <!-- Footer -->
+<!--
     <footer>
         <div class="logo-footer">
             <img src="./logos/logo-4@4x-8.png" alt="logo">
@@ -229,10 +526,7 @@
                         <td>15:00hs a 02:00hs</td>
                     </tr>
                 </table>
-                <!-- <p>Lunes a Viernes</p>
-                <p>14:00hs a 00:00hs</p>
-                <p>Sábados y Domingos</p>
-                <p>15:00hs a 03:00hs</p>-->
+               
             </div>
             <div class="contenedor-menu-footer">
                 <ul>
@@ -247,7 +541,9 @@
         <div class="contenedor-copyright">
             <p>Copyright © 2021 - Lizbeth Limprich </p>
         </div>
-    </footer>
+    </footer>-->
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap.js"></script>
 </body>
 
 </html>
