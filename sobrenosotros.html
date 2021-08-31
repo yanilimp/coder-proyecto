@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Las mejores hamburguesas caseras de Buenos aires">
+    <meta name="keywords"  content="hamburguesa, hamburguesas caseras, papas fritas, buenos aires, comida rapida, hamburguesas en buenos aires">
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,40 +23,58 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg fixed-top d-flex contenedor-superior">
-            <div class="container-fluid ">
-                <a class="navbar-brand" href="index.html">
-                    <img class="logotipo-header" src="./logos/logo-6@4x-8.png" alt="Logo">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"><i class="bi bi-list"></i></span>
-                </button>
-                <div class="collapse navbar-collapse contenedor-menu-principal" id="navbarScroll">
-                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll justify-content-end"
-                        style="--bs-scroll-height: 100px;">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="menu.html">Menú</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="sobrenosotros.html">Sobre Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="carrito.html">Carrito</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contactos.html">Contactos</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+       <!-- Navbar -->
+       <nav class="navbar fixed-top navbar-expand-lg scrolling-navbar contenedor-superior">
+        <div class="container">
+  
+          <!-- Brand -->
+          <a class="navbar-brand waves-effect" href="index.html" target="_blank">
+            <img class="logotipo-header" src="./logos/logo-6@4x-8.png" alt="Logo">
+          </a>
+  
+          <!-- Collapse -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <!-- Links -->
+          <div class="collapse navbar-collapse contenedor-menu-principal" id="navbarSupportedContent">
+  
+            <!-- Right -->
+            <ul class="navbar-nav nav-flex-icons">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link waves-effect" >Inicio</a>
+              </li>
+              <li class="nav-item">
+                  <a href="menu.html" class="nav-link waves-effect" >Menú</a>
+                </li>
+                <li class="nav-item">
+                  <a href="sobrenosotros.html" class="nav-link waves-effect" >Sobre Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a href="carrito.html" class="nav-link waves-effect" >Carrito</a>
+                </li>
+                <li class="nav-item">
+                  <a href="contactos.html" class="nav-link waves-effect" >Contactos</a>
+                </li>
+            </ul>
+  
+          </div>
+  
+        </div>
+      </nav>
     </header>
 
     <div class="cuerpo">
+        <div id="intro-example" class="p-5 text-center bg-image">
+            <div class="mask"></div>
+            <div class="d-flex justify-content-center align-items-center h-100">
+                <div class="text-white">
+                    <h1 class="mb-3">Sobre Nosotros</h1>
+                </div>
+            </div>
+        </div>
         <div class="container my-5 z-depth-1">
             <section class="dark-grey-text">
 
