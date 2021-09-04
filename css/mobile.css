@@ -1,31 +1,27 @@
 @media screen and (min-width: 300px) and (max-width: 768px) {
-  /* .contenedor-superior{
-       display: flex;
-   }
-
-   .logo-contenedor{
-       width: 100%;
+    .bg-image-index{
+        background-image: url(../imagenes/banner-inicio-negro.png);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
-    .contenedor-menu-principal{
-        display: none;
+    .bg-image-menu{
+        background-image: url(../imagenes/banner-menu.png);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
-    .contenedor-titulo-principal {
-        text-align: center;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+    .bg-image-contactos{
+        background-image: url(../imagenes/banner-contacto.png);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
-    .subtitulo-central {
-        top: 70%;
-        left: 50%;
-        transform: translate(-60%, -50%);
+    .bg-image-sobrenosotros{
+        background-image: url(../imagenes/banner-sobrenosotros.png);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
-    .contenedor-titulo-principal img{
-        width: 100%;
+    .bg-image-carrito{
+        background-image: url(../imagenes/banner-carrito.png);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
-    .contenedor-seccion-1{
-        display: block;
-    }
-*/
 }
