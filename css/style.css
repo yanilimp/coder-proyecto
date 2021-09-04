@@ -19,7 +19,6 @@ nav.navbar.fixed-top.navbar-expand-lg.scrolling-navbar.contenedor-superior{
 }
 .logo-contenedor{
     margin: 0;
-    padding: 10px;
     flex-direction: row;
     justify-content: flex-start;
 }
@@ -35,19 +34,18 @@ nav.navbar.fixed-top.navbar-expand-lg.scrolling-navbar.contenedor-superior{
 }
 .contenedor-menu-principal ul li a {
     display: inline-flex;
-    padding: 20px;
     text-decoration: none;
     color: #000;
 }
 .contenedor-menu-principal ul li:hover{
-    background-image: linear-gradient(to left, #D8BA27, #000);
+    background-color: rgba(0, 0, 0, 0.4);
     transition: 2s;
     animation-duration: 1s;
     animation-name: aparecer;
     animation-iteration-count: initial;
 }
 .contenedor-menu-principal ul li a:hover{
-    color: #000;
+    color: #D8BA27;
     animation-duration: 1s;
     animation-name: aparecer;
     animation-iteration-count: initial;
@@ -59,9 +57,33 @@ span.navbar-toggler-icon{
 /*FIN BARRA*/
 /*TITULO PRINCIPAL DE LA PAGINA CON FONDO Y SUBTITULO*/
 /*INICIO TITULO PRINCIPAL*/
-.bg-image{
+.bg-image-index{
     background-image: url(../imagenes/banner-inicio-negro.png);
-    height: 100vh;
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-image-menu{
+    background-image: url(../imagenes/banner-menu.png);
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-image-contactos{
+    background-image: url(../imagenes/banner-contacto.png);
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-image-sobrenosotros{
+    background-image: url(../imagenes/banner-sobrenosotros.png);
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-image-carrito{
+    background-image: url(../imagenes/banner-carrito.png);
+    height: 80vh;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -75,7 +97,7 @@ h1 {
     font-family: 'Bowlby One SC', cursive;
     color: #D8BA27;
     text-align: center;
-    font-size: 3em;
+    font-size: 5em;
     display: block;
     position: absolute;
     top: 50%;
