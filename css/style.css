@@ -141,6 +141,7 @@ p {
     display: flex;
     justify-content: center;
     align-content: center;
+    align-items: center;
     flex-direction: column;
 }
 h2.font-weight-bold.mb-4{
@@ -166,7 +167,7 @@ button.btn.btn-orange.btn-rounded.mx-0.contenedor-boton-seccion-1{
     padding: 10px 20px;
     background-color: #D8BA27;
     border-radius: 2rem;
-    color: #000;
+    color: rbga();
     border: none;
 }
 .btn.btn-orange.btn-rounded.mx-0.contenedor-boton-seccion-1 a{
@@ -174,7 +175,7 @@ button.btn.btn-orange.btn-rounded.mx-0.contenedor-boton-seccion-1{
     text-decoration: none;
 }
 button.btn.btn-orange.btn-rounded.mx-0.contenedor-boton-seccion-1:hover{
-    background-color: rgba(0,0,0,0.9);
+    background-color: rgba(0,0,0,0.4);
     animation-duration: 1s;
     animation-name: aparecer;
     animation-iteration-count: initial;
@@ -229,7 +230,7 @@ button.btn.btn-orange.btn-rounded.mx-0.contenedor-boton-ver-mas-seccion-2{
     text-decoration: none;
 }
 button.btn.btn-orange.btn-rounded.mx-0.contenedor-boton-ver-mas-seccion-2:hover {
-    background-color: rgba(0,0,0,0.9);
+    background-color: rgba(0,0,0,0.4);
     animation-duration: 1s;
     animation-name: aparecer;
     animation-iteration-count: initial;
@@ -277,7 +278,7 @@ button.btn.btn-orange.btn-rounded.mx-0 {
 }
 button.btn.btn-orange.btn-rounded.mx-0:hover{
     color: #D8BA27;
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.4);
     animation-duration: 1s;
     animation-name: aparecer;
     animation-iteration-count: initial;
@@ -287,7 +288,7 @@ button.btn.btn-orange.btn-rounded.mx-0 a {
     text-decoration: none;
 }
 button.btn.btn-orange.btn-rounded.mx-0:hover{
-    background-color: rgba(0,0,0,0.9);
+    background-color: rgba(0,0,0,0.4);
     animation-duration: 1s;
     animation-name: aparecer;
     animation-iteration-count: initial;
