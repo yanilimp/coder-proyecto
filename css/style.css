@@ -337,6 +337,7 @@ button.btn.btn-info.btn-sm.ml-0{
 .map-container {
     height: 230px;
     position: relative;
+    margin-top: 10%;
 }
 .map-container iframe {
     left: 0;
