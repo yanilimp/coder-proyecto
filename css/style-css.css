@@ -1,0 +1,31 @@
+h1 {
+  color: #D8BA27;
+  font-family: "Bowlby One SC", cursive; }
+
+body {
+  background-color: #000;
+  font-family: "Comfortaa"; }
+
+header {
+  background-color: #D8BA27;
+  font-family: "Comfortaa";
+  color: #000; }
+
+header ul {
+  list-style: none; }
+  header ul li {
+    display: inline-block; }
+    header ul li a {
+      text-decoration: none; }
+
+header i {
+  width: 100px;
+  height: 100px; }
+
+footer img {
+  width: 400px;
+  height: 400px; }
+
+footer div {
+  width: 800px;
+  height: 800px; }

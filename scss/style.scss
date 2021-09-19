@@ -1,0 +1,49 @@
+$font-family-1: 'Comfortaa';
+$font-family-2: 'Bowlby One SC', cursive;
+$color-1:#000;
+$color-2: #D8BA27;
+$background-color-1: #D8BA27;
+$background-color-2: #000;
+$alto:200px;
+$ancho:200px;
+
+h1{
+    color: $color-2;
+    font-family: $font-family-2;
+}
+
+body{
+    background-color: $background-color-2;
+    font-family: $font-family-1;
+}
+
+header{
+    background-color: $background-color-1;
+    font-family: $font-family-1;
+    color: $color-1;
+}
+
+header ul {
+    list-style: none;
+         li {
+             display: inline-block;
+                a {
+                    text-decoration: none;                    
+                }
+                }
+   }
+
+header i {
+    width: $ancho/2;
+    height: $alto/2;
+}
+
+footer img {
+    width: $ancho*2;
+    height: $alto*2;
+}
+
+footer div{
+    width: $ancho*4;
+    height: $alto*4;
+}

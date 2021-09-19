@@ -39,14 +39,14 @@ nav.navbar.fixed-top.navbar-expand-lg.scrolling-navbar.contenedor-superior{
 }
 .contenedor-menu-principal ul li:hover{
     background-color: rgba(0, 0, 0, 0.4);
-    transition: 2s;
-    animation-duration: 1s;
+    transition: 1s;
+    animation-duration: 0.5s;
     animation-name: aparecer;
     animation-iteration-count: initial;
 }
 .contenedor-menu-principal ul li a:hover{
     color: #D8BA27;
-    animation-duration: 1s;
+    animation-duration: 0.5s;
     animation-name: aparecer;
     animation-iteration-count: initial;
 }
@@ -103,7 +103,7 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    animation-duration: 2s;
+    animation-duration: 0.5s;
     animation-name: aparecer;
     animation-iteration-count: initial;
 }
@@ -176,13 +176,13 @@ button.btn.btn-orange.btn-rounded.mx-0.contenedor-boton-seccion-1{
 }
 button.btn.btn-orange.btn-rounded.mx-0.contenedor-boton-seccion-1:hover{
     background-color: rgba(0,0,0,0.4);
-    animation-duration: 1s;
+    animation-duration: 0.5s;
     animation-name: aparecer;
     animation-iteration-count: initial;
 }
 button.btn.btn-orange.btn-rounded.mx-0.contenedor-boton-seccion-1 a:hover{
     color: #D8BA27;
-    animation-duration: 1s;
+    animation-duration: 0.5s;
     animation-name: aparecer;
     animation-iteration-count: initial;
 }
@@ -231,13 +231,13 @@ button.btn.btn-orange.btn-rounded.mx-0.contenedor-boton-ver-mas-seccion-2{
 }
 button.btn.btn-orange.btn-rounded.mx-0.contenedor-boton-ver-mas-seccion-2:hover {
     background-color: rgba(0,0,0,0.4);
-    animation-duration: 1s;
+    animation-duration: 0.5s;
     animation-name: aparecer;
     animation-iteration-count: initial;
 }
 button.btn.btn-orange.btn-rounded.mx-0.contenedor-boton-ver-mas-seccion-2 a:hover{
     color: #D8BA27;
-    animation-duration: 1s;
+    animation-duration: 0.5s;
     animation-name: aparecer;
     animation-iteration-count: initial;
 }
@@ -279,7 +279,7 @@ button.btn.btn-orange.btn-rounded.mx-0 {
 button.btn.btn-orange.btn-rounded.mx-0:hover{
     color: #D8BA27;
     background-color: rgba(0, 0, 0, 0.4);
-    animation-duration: 1s;
+    animation-duration: 0.5s;
     animation-name: aparecer;
     animation-iteration-count: initial;
 }
@@ -289,13 +289,13 @@ button.btn.btn-orange.btn-rounded.mx-0 a {
 }
 button.btn.btn-orange.btn-rounded.mx-0:hover{
     background-color: rgba(0,0,0,0.4);
-    animation-duration: 1s;
+    animation-duration: 0.5s;
     animation-name: aparecer;
     animation-iteration-count: initial;
 }
 button.btn.btn-orange.btn-rounded.mx-0 a:hover{
     color: #D8BA27;
-    animation-duration: 1s;
+    animation-duration: 0.5s;
     animation-name: aparecer;
     animation-iteration-count: initial;
 }
